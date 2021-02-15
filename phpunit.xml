@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<phpunit
+        bootstrap="vendor/autoload.php"
+        colors="true"
+        printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer" >
+    <coverage>
+        <include>
+            <directory suffix=".php">classes</directory>
+        </include>
+        <report>
+            <clover outputFile="clover.xml"/>
+            <crap4j outputFile="crap4j.xml" threshold="50"/>
+            <html outputDirectory="html-coverage" lowUpperBound="50" highLowerBound="90"/>
+            <php outputFile="coverage.php"/>
+            <text outputFile="coverage.txt" showUncoveredFiles="false" showOnlySummary="true"/>
+            <xml outputDirectory="xml-coverage"/>
+        </report>
+    </coverage>
+    <logging>target="php://stdout" type="coverage-text" showUncoveredFiles="false"/>-->
+        <testdoxHtml outputFile="tests/log/testdox.html"/>
+        <testdoxText outputFile="tests/log/testdox.txt"/>
+    </logging>
+</phpunit>

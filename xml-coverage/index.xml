@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Sun Feb 14 19:34:27 CET 2021" phpunit="9.5.2" coverage="9.2.5">
+    <runtime name="PHP" version="8.0.2" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="3.0.2"/>
+  </build>
+  <project source="C:\xampp\htdocs\Project-6-Unit-Testing-in-PHP\classes">
+    <tests/>
+    <directory name="/">
+      <totals>
+        <lines total="502" comments="129" code="373" executable="153" executed="0" percent="0.00"/>
+        <methods count="37" tested="0" percent="0.00"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="6" tested="0" percent="0.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <file name="Collection.php" href="Collection.php.xml">
+        <totals>
+          <lines total="203" comments="44" code="159" executable="80" executed="0" percent="0.00"/>
+          <methods count="9" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+      <file name="Connection.php" href="Connection.php.xml">
+        <totals>
+          <lines total="23" comments="1" code="22" executable="9" executed="0" percent="0.00"/>
+          <methods count="2" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+      <file name="ListingBasic.php" href="ListingBasic.php.xml">
+        <totals>
+          <lines total="178" comments="60" code="118" executable="49" executed="0" percent="0.00"/>
+          <methods count="15" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+      <file name="ListingFeatured.php" href="ListingFeatured.php.xml">
+        <totals>
+          <lines total="35" comments="12" code="23" executable="5" executed="0" percent="0.00"/>
+          <methods count="3" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+      <file name="ListingInactive.php" href="ListingInactive.php.xml">
+        <totals>
+          <lines total="22" comments="0" code="22" executable="4" executed="0" percent="0.00"/>
+          <methods count="4" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+      <file name="ListingPremium.php" href="ListingPremium.php.xml">
+        <totals>
+          <lines total="41" comments="12" code="29" executable="6" executed="0" percent="0.00"/>
+          <methods count="4" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>
