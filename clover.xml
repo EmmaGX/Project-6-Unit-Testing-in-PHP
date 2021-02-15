@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1613327666">
-  <project timestamp="1613327666">
+<coverage generated="1613421379">
+  <project timestamp="1613421379">
     <file name="C:\xampp\htdocs\Project-6-Unit-Testing-in-PHP\classes\Collection.php">
       <class name="Collection" namespace="global">
         <metrics complexity="30" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="80" coveredstatements="0" elements="89" coveredelements="0"/>

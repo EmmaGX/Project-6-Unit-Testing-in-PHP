@@ -2,7 +2,8 @@
 <phpunit
         bootstrap="vendor/autoload.php"
         colors="true"
-        printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer" >
+        printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
+>
     <coverage>
         <include>
             <directory suffix=".php">classes</directory>
@@ -16,7 +17,7 @@
             <xml outputDirectory="xml-coverage"/>
         </report>
     </coverage>
-    <logging>target="php://stdout" type="coverage-text" showUncoveredFiles="false"/>-->
+    <logging>
         <testdoxHtml outputFile="tests/log/testdox.html"/>
         <testdoxText outputFile="tests/log/testdox.txt"/>
     </logging>
