@@ -113,5 +113,17 @@ class ListingBasicsTest extends TestCase
         $this->assertEquals('twitter.com/yourname', $listing->getTwitter(),
             'Did not return the correct twitter address');
     }
+    /**
+     * @test
+     */
+    public function checksToSeeIfTheInArrayMethodReturnExpectedResults()
+    {
+        $data = ['id' => 1, 'title' => 'test', 'website' => 'www.teaforte.com',
+            'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/@yourname'];
+        $listing = new ListingBasic($data);
+        $this->assertIsArray($listing->toArray(),
+            'The return is not an array');
+
+    }
 }
 
