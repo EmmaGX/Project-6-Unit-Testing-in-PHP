@@ -1,5 +1,5 @@
-Listing Image
- [ ] No image
- [ ] Full path image
- [ ] Build path image
+Listing Basics
+ [x] Check to see if exception message will show when no data is entered
+ [x] Checks to see if exception is thrown if no id is set
+ [x] Checks to see if exception is thrown if no title is set
 

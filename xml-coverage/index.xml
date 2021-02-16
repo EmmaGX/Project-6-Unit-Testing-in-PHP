@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Mon Feb 15 21:36:20 CET 2021" phpunit="9.5.2" coverage="9.2.5">
+  <build time="Tue Feb 16 4:34:25 CET 2021" phpunit="9.5.2" coverage="9.2.5">
     <runtime name="PHP" version="8.0.2" url="https://secure.php.net/"/>
     <driver name="xdebug" version="3.0.2"/>
   </build>
   <project source="C:\xampp\htdocs\Project-6-Unit-Testing-in-PHP\classes">
-    <tests/>
+    <tests>
+      <test name="ListingBasicsTest::CheckToSeeIfExceptionMessageWillShowWhenNoDataIsEntered" size="unknown" result="0" status="PASSED"/>
+      <test name="ListingBasicsTest::checksToSeeIfExceptionIsThrownIfNoDataIdIsSet" size="unknown" result="3" status="FAILURE"/>
+    </tests>
     <directory name="/">
       <totals>
-        <lines total="502" comments="129" code="373" executable="153" executed="0" percent="0.00"/>
+        <lines total="502" comments="129" code="373" executable="153" executed="2" percent="1.31"/>
         <methods count="37" tested="0" percent="0.00"/>
         <functions count="0" tested="0" percent="0"/>
         <classes count="6" tested="0" percent="0.00"/>
@@ -34,7 +37,7 @@
       </file>
       <file name="ListingBasic.php" href="ListingBasic.php.xml">
         <totals>
-          <lines total="178" comments="60" code="118" executable="49" executed="0" percent="0.00"/>
+          <lines total="178" comments="60" code="118" executable="49" executed="2" percent="4.08"/>
           <methods count="15" tested="0" percent="0.00"/>
           <functions count="0" tested="0" percent="0"/>
           <classes count="1" tested="0" percent="0.00"/>

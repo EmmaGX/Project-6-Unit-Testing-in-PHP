@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1613421379">
-  <project timestamp="1613421379">
+<coverage generated="1613444808">
+  <project timestamp="1613444808">
     <file name="C:\xampp\htdocs\Project-6-Unit-Testing-in-PHP\classes\Collection.php">
       <class name="Collection" namespace="global">
         <metrics complexity="30" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="80" coveredstatements="0" elements="89" coveredelements="0"/>
@@ -115,11 +115,11 @@
     </file>
     <file name="C:\xampp\htdocs\Project-6-Unit-Testing-in-PHP\classes\ListingBasic.php">
       <class name="ListingBasic" namespace="global">
-        <metrics complexity="26" methods="15" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="0" elements="64" coveredelements="0"/>
+        <metrics complexity="26" methods="15" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="2" elements="64" coveredelements="2"/>
       </class>
-      <line num="12" type="method" name="__construct" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="14" type="stmt" count="0"/>
-      <line num="15" type="stmt" count="0"/>
+      <line num="12" type="method" name="__construct" visibility="public" complexity="2" crap="2.50" count="2"/>
+      <line num="14" type="stmt" count="2"/>
+      <line num="15" type="stmt" count="2"/>
       <line num="17" type="stmt" count="0"/>
       <line num="18" type="stmt" count="0"/>
       <line num="24" type="method" name="setValues" visibility="public" complexity="8" crap="72" count="0"/>
@@ -181,7 +181,7 @@
       <line num="168" type="stmt" count="0"/>
       <line num="174" type="method" name="toArray" visibility="public" complexity="1" crap="2" count="0"/>
       <line num="176" type="stmt" count="0"/>
-      <metrics loc="178" ncloc="118" classes="1" methods="15" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="0" elements="64" coveredelements="0"/>
+      <metrics loc="178" ncloc="118" classes="1" methods="15" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="2" elements="64" coveredelements="2"/>
     </file>
     <file name="C:\xampp\htdocs\Project-6-Unit-Testing-in-PHP\classes\ListingFeatured.php">
       <class name="ListingFeatured" namespace="global">
@@ -227,6 +227,6 @@
       <line num="40" type="stmt" count="0"/>
       <metrics loc="41" ncloc="29" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="10" coveredelements="0"/>
     </file>
-    <metrics files="6" loc="502" ncloc="373" classes="6" methods="37" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="153" coveredstatements="0" elements="190" coveredelements="0"/>
+    <metrics files="6" loc="502" ncloc="373" classes="6" methods="37" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="153" coveredstatements="2" elements="190" coveredelements="2"/>
   </project>
 </coverage>
