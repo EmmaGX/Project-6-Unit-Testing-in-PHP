@@ -16,4 +16,16 @@ class ListingPremiumTest extends TestCase
         $listing->setStatus('premium');
         $this->assertEquals('premium', $listing->getStatus(), 'Did not return premium');
     }
+    /**
+     * @test
+     */
+    public function checksToSeeIfGetDescriptionIsReturningAString()
+    {
+        $data = ['id' => 1, 'title' => 'test'];
+        $listing = new ListingPremium($data);
+        $listing->setDescription('Beautiful view of the ocean!');
+        $this->assertEquals('Beautiful view of the ocean!',
+            $listing->getDescription(), 'Did not return the correct description');
+
+    }
 }

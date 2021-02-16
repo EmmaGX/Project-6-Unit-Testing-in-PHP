@@ -1,3 +1,4 @@
 Listing Premium
  [x] Check to see if get status returns premium
+ [x] Checks to see if get description is returning a string
 
