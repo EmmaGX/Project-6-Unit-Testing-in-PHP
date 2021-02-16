@@ -1,3 +1,4 @@
 Listing Featured
  [x] Check to see if get status returns featured
+ [x] Checks to see if coc is returns the expected results
 
