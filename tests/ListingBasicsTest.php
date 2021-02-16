@@ -36,4 +36,24 @@ class ListingBasicsTest extends TestCase
         $listing = new ListingBasic($data);
         $listing->setTitle($data = ['title' => null]);
     }
+    /**
+     * @test
+     */
+    public function checkToSeeIfObjectIsCreatedWhenPassingIdAndTitle()
+    {
+        $data = ['id' => 1, 'title' => 'test'];
+        $listing = new ListingBasic($data);
+        $this->assertIsObject($listing);
+    }
+    /**
+     * @test
+     */
+    public function checkToSeeIfGetStatusReturnBasic()
+    {
+        $data = ['id' => 1, 'title' => 'test'];
+        $listing = new ListingBasic($data);
+        $listing->setStatus('basic');
+        $this->assertEquals('basic', $listing->getStatus(), 'Did not return basic');
+    }
 }
+

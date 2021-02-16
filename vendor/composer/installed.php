@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '4bc0cb29b7b039e38bb6a40b10c9104513bad3dc',
+    'reference' => 'ced9ced91db108f13c65c6d52b43ad907a07b517',
     'name' => '__root__',
   ),
   'versions' => 
@@ -27,7 +27,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4bc0cb29b7b039e38bb6a40b10c9104513bad3dc',
+      'reference' => 'ced9ced91db108f13c65c6d52b43ad907a07b517',
     ),
     'codedungeon/php-cli-colors' => 
     array (
@@ -350,8 +350,8 @@
     ),
     'symfony/polyfill-ctype' => 
     array (
-      'pretty_version' => 'v1.22.0',
-      'version' => '1.22.0.0',
+      'pretty_version' => 'v1.22.1',
+      'version' => '1.22.1.0',
       'aliases' => 
       array (
       ),

@@ -2,4 +2,6 @@ Listing Basics
  [x] Check to see if exception message will show when no data is entered
  [x] Checks to see if exception is thrown if no id is set
  [x] Checks to see if exception is thrown if no title is set
+ [x] Check to see if object is created when passing id and title
+ [x] Check to see if get status return basic
 
