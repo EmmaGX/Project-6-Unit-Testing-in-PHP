@@ -1,3 +1,3 @@
-Listing Basics
- [x] Checks to see if the in array method return expected results
+Listing Premium
+ [ ] Check to see if get status returns premium
 
