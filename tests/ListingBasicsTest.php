@@ -55,5 +55,63 @@ class ListingBasicsTest extends TestCase
         $listing->setStatus('basic');
         $this->assertEquals('basic', $listing->getStatus(), 'Did not return basic');
     }
+    /**
+     * @test
+     */
+    public function
+    checkToMakeSureTheGetMethodIsReturningTheCorrectResultsForId()
+    {
+        $data = ['id' => 1, 'title' => 'test', 'website' => 'teaforte.com',
+                'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/yourname'];
+        $listing = new ListingBasic($data);
+        $this->assertEquals(1, $listing->getId(), 'Did not return the correct ID');
+    }
+    /**
+     * @test
+     */
+    public function
+    checkToMakeSureTheGetMethodIsReturningTheCorrectResultsForTitle()
+    {
+        $data = ['id' => 1, 'title' => 'test', 'website' => 'teaforte.com',
+            'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/yourname'];
+        $listing = new ListingBasic($data);
+        $this->assertEquals('test', $listing->getTitle(), 'Did not return the correct title');
+    }
+    /**
+     * @test
+     */
+    public function
+    checkToMakeSureTheGetMethodIsReturningTheCorrectResultsForWebsite()
+    {
+        $data = ['id' => 1, 'title' => 'test', 'website' => 'www.teaforte.com',
+            'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/yourname'];
+        $listing = new ListingBasic($data);
+        $this->assertEquals('http://www.teaforte.com', $listing->getWebsite(),
+            'Did not return the correct Website');
+    }
+    /**
+     * @test
+     */
+    public function
+    checkToMakeSureTheGetMethodIsReturningTheCorrectResultsForEmail()
+    {
+        $data = ['id' => 1, 'title' => 'test', 'website' => 'www.teaforte.com',
+            'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/yourname'];
+        $listing = new ListingBasic($data);
+        $this->assertEquals('notreal@gmail.com', $listing->getEmail(),
+            'Did not return the correct email');
+    }
+    /**
+     * @test
+     */
+    public function
+    checkToMakeSureTheGetMethodIsReturningTheCorrectResultsForTwitter()
+    {
+        $data = ['id' => 1, 'title' => 'test', 'website' => 'www.teaforte.com',
+            'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/@yourname'];
+        $listing = new ListingBasic($data);
+        $this->assertEquals('twitter.com/yourname', $listing->getTwitter(),
+            'Did not return the correct twitter address');
+    }
 }
 
