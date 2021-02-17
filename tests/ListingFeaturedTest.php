@@ -25,4 +25,14 @@ class ListingFeaturedTest extends TestCase
         $this->assertIsString($listing->getCoc());
 
     }
+    /**
+     * @test
+     */
+    public function checksToSeeIfGetCocReturnsTheCorrectResult()
+    {
+        $data = ['id' => 1, 'title' => 'test'];
+        $listing = new ListingFeatured($data);
+        $listing->setCoc('5,000');
+        $this->assertEquals('5,000', $listing->getCoc(), 'Did not return coc');
+    }
 }
