@@ -91,6 +91,16 @@ class ListingBasicsTest extends TestCase
     /**
      * @test
      */
+    public function checkExpectedOutcomeIfNoWebsiteIsEntered()
+    {
+        $data = ['id' => 1, 'title' => 'test', 'website' => '',
+            'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/yourname'];
+        $listing = new ListingBasic($data);
+        $this->assertEquals('', $listing->getWebsite());
+    }
+    /**
+     * @test
+     */
     public function
     checkToMakeSureTheGetMethodIsReturningTheCorrectResultsForEmail()
     {
@@ -124,6 +134,17 @@ class ListingBasicsTest extends TestCase
             'The return is not an array');
 
     }
+    /**
+     * @test
+     */
+    public function checkingIfSetStatusIsWorkingAsExpected()
+    {
+        $data = ['id' => 1, 'title' => 'test'];
+        $listing = new ListingBasic($data);
+        $this->assertEquals('', $listing->setStatus('basic'),
+            'Did not return the correct status');
+    }
+
 }
 
 

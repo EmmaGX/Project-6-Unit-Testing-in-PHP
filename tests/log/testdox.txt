@@ -1,5 +1,28 @@
+Listing Basics
+ [x] Check to see if exception message will show when no data is entered
+ [x] Checks to see if exception is thrown if no id is set
+ [x] Checks to see if exception is thrown if no title is set
+ [x] Check to see if object is created when passing id and title
+ [x] Check to see if get status return basic
+ [x] Check to make sure the get method is returning the correct results for id
+ [x] Check to make sure the get method is returning the correct results for title
+ [x] Check to make sure the get method is returning the correct results for website
+ [x] Check expected outcome if no website is entered
+ [x] Check to make sure the get method is returning the correct results for email
+ [x] Check to make sure the get method is returning the correct results for twitter
+ [x] Checks to see if the in array method return expected results
+ [x] Checking if set status is working as expected
+
+Listing Featured
+ [x] Check to see if get status returns featured
+ [x] Checks to see if coc is returns the expected results
+
 Listing Image
  [x] No image
  [x] Full path image
  [x] Build path image
+
+Listing Premium
+ [x] Check to see if get status returns premium
+ [x] Checks to see if get description is returning a string
 
