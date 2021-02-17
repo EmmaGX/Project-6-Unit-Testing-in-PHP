@@ -1,4 +1,9 @@
 {
+  "autoload": {
+    "psr-4": {
+      "": "classes/"
+    }
+  },
   "require-dev": {
     "phpunit/phpunit": "*",
     "codedungeon/phpunit-result-printer": "*"

@@ -1,5 +1,4 @@
 <?php
-require __DIR__ .'/../classes/ListingBasic.php';
 
 use PHPUnit\Framework\TestCase;
 
@@ -62,7 +61,7 @@ class ListingBasicsTest extends TestCase
     checkToMakeSureTheGetMethodIsReturningTheCorrectResultsForId()
     {
         $data = ['id' => 1, 'title' => 'test', 'website' => 'teaforte.com',
-                'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/yourname'];
+            'email' => 'notreal@gmail.com', 'twitter' => 'twitter.com/yourname'];
         $listing = new ListingBasic($data);
         $this->assertEquals(1, $listing->getId(), 'Did not return the correct ID');
     }
@@ -126,4 +125,5 @@ class ListingBasicsTest extends TestCase
 
     }
 }
+
 

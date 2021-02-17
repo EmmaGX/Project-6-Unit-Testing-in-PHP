@@ -127,6 +127,18 @@ class ListingBasic
         $this->email = trim(filter_var($value, FILTER_SANITIZE_STRING));
     }
 
+
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    public function setImage($value)
+    {
+        $this->image = $value;
+    }
+
+
     /**
      * Gets the local property $twitter
      * @return string
