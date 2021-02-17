@@ -130,11 +130,23 @@ class ListingBasic
 
     public function getImage()
     {
-        return $this->image;
+        if(!empty($this->image)){
+            return $this->image;
+        }else{
+            return false;
+        }
     }
 
     public function setImage($value)
     {
+        $value = trim(filter_var($value, FILTER_SANITIZE_STRING));
+        if (empty($value)) {
+            $this->image = null;
+            return;
+        }
+        if (substr($value, 0, 4) != 'http') {
+            $value = BASE_URL . '/' . $value;
+        }
         $this->image = $value;
     }
 
